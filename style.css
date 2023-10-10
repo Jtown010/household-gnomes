@@ -27,11 +27,18 @@ body {
 
 .list {
     display: flex;
-    gap: 20px;
-    color: #e5e7eb;
-    text-decoration: none;
+    gap: 80px;   
     font-size: 18px;
     list-style: none;
+}
+
+.list a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.list a:hover {
+    text-decoration: underline;
 }
 
 .block1 {
